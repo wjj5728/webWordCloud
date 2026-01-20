@@ -36,7 +36,7 @@ export function ParticlesBackground() {
         events: {
           onHover: { enable: true, mode: 'grab' },
           onClick: { enable: true, mode: 'push' },
-          resize: true,
+          resize: { enable: true },
         },
         modes: {
           grab: {
